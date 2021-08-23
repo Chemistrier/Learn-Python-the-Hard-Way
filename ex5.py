@@ -1,14 +1,16 @@
 name = 'Dennis Hsu'
 age = 35 # not a lie
 height = 74 # inches
+hieghtincm = 74*2.54
 weight = 180 # lbs
+weightinkg= 180*0.4535
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 
 print(f"Let's talk about { name}.")
-print(f"He's {height} inches tall.")
-print(f"He's {weight} pounds heavy.")
+print(f"He's {height} inches tall and {hieghtincm} cm tall.")
+print(f"He's {weight} pounds heavy and {weightinkg} kg heavy.")
 print("Actually that's not too heavy.")
 print(f"He's got {eyes} eyes and {hair} hair.")
 print(f"His teeth are usually {teeth} depending on the coffee.")
