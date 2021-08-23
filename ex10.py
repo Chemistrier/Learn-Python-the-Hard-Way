@@ -13,3 +13,6 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
+print("I am 6'2\" tall \a \b \f I don't know \\ what this \v is  ")
+#you can avoid " would end the line early with  ''' instead of """
+# %r shows the way the input is typed in, but %s would add '' or () to the input
