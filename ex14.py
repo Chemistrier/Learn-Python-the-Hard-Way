@@ -1,13 +1,13 @@
 from sys import argv
 
-script, user_name = argv
+script, user_name, suffix = argv
 prompt = '>_< '
 
-print("Hi %s, I'm  the %s script. "%(user_name, script))
+print("Hi %s, I'm  the %s script. "%(user_name, suffix, script))
 print("I'd like to ask you a few questions")
-print("Do you like me %s?. " %(user_name)
+print("Do you like me %s?. " %(user_name, suffix)
 likes = input(prompt)
-print("Where do you live %s" %(user_name))
+print("Where do you live %s" %(user_name, suffix))
 lives = input(prompt)
 print("What kind of computer do you have?" )
 computer = input(prompt)
