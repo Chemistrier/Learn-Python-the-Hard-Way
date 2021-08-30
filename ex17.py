@@ -26,4 +26,5 @@ in_file.close()
 #out_file = open(to_file, 'w')
 #out_file.write(indata)
 #man cat
-#you can only open certain amount of file at once, so you need to close files 
+#you can only open certain amount of file at once, so you need to close files
+# i do not get it right, for the last study drill
