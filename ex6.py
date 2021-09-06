@@ -3,7 +3,7 @@ x = f"There are {types_of_people} types of people."#set x as a f-string with typ
 
 binary = "binary"#set binary as binary
 do_not = "don't"#set do_not as don't
-y = f"Those who know {binary} and those who {do_not}."#y set y as a f-string with binary and do_not
+y = f"Those who know {binary} and those who {do_not}."#y set y as a f-string with binary and do_not/ here the string put into strings
 
 print(x)#print out x
 print(y)#print out y
@@ -21,4 +21,4 @@ e = "a string with a right side."# set e string
 
 print(w + e)#combine two strings
 
-#adding w and e combines the two strings 
+#adding w and e combines the two strings
